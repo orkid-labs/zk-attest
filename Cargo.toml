@@ -7,4 +7,4 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Jacob Cavazos <jjcav84@gmail.com>"]
 license = "MIT"
-repository = "https://github.com/jjcav84/zk-attest"
+repository = "https://github.com/orkid-labs/zk-attest"

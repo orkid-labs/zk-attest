@@ -1572,7 +1572,7 @@ dependencies = [
 [[package]]
 name = "negentropy"
 version = "0.1.0"
-source = "git+https://github.com/jjcav84/negentropy.git#88a6620a72a5a2f54ea26ba8ef8b9070b1be6617"
+source = "git+https://github.com/orkid-labs/negentropy.git#88a6620a72a5a2f54ea26ba8ef8b9070b1be6617"
 dependencies = [
  "serde",
  "serde_json",

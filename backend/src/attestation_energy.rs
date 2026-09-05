@@ -11,7 +11,7 @@
 //! - **latency_decay** ← 1 / (1 + total_latency × decay_rate)
 //! - **cost_penalty** ← (HCS + HTS cost in HBAR) × HBAR price, normalized
 //!
-//! See <https://github.com/jjcav84/negentropy> for the physics.
+//! See <https://github.com/orkid-labs/negentropy> for the physics.
 
 use serde::{Deserialize, Serialize};
 

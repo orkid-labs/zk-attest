@@ -12,7 +12,7 @@ zk-attest lets users prove attributes about themselves (age, income, credential 
 
 > **Status:** The issuer signature scheme uses a **Poseidon-based Schnorr-like signature** (`pk = Poseidon(sk)`, `sig = sk + Poseidon(pk, m, r)`, verified in-circuit via `Poseidon(sig - h) === pk`). Forging requires a preimage attack on Poseidon over BN254. The Hedera HCS/HTS integration is currently **simulated** — `hiero-sdk` is wired in but no real transactions are submitted until credentials are configured.
 
-Attestations are scored using an **attestation energy model** adapted from the [orkid FMD physics engine](https://github.com/jjcav84/orkid) — the same thermodynamic framework that scores arbitrage routes in production MEV extraction.
+Attestations are scored using an **attestation energy model** adapted from the [orkid FMD physics engine](https://github.com/orkid-labs/orkid) — the same thermodynamic framework that scores arbitrage routes in production MEV extraction.
 
 > **Note:** The orkid repository is private. Access can be provided to
 > Thrive Protocol reviewers and other appropriate cases on request —
