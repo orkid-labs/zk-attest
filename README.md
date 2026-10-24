@@ -293,3 +293,18 @@ systems. See our other work at [orkidlabs.com](https://www.orkidlabs.com).
 ## License
 
 MIT
+
+---
+
+## Part of Orkid Labs
+
+**zk-attest** — Zero-knowledge attestation platform on Hedera — privacy credentials with HCS audit logs and HTS NFTs.
+
+- Install: `cargo install zk-attest`
+- Package: https://crates.io/crates/zk-attest
+- API docs: https://docs.rs/zk-attest
+- Docs: https://docs.orkidlabs.xyz/packages/zk-attest
+
+Related Orkid projects: [horizen-attest](https://github.com/orkid-labs/horizen-attest), [hedera-utils](https://github.com/orkid-labs/hedera-utils), [zk-age](https://github.com/orkid-labs/zk-age)
+
+Orkid Labs builds gasless, MEV-protected swap routing and agent-native DeFi infrastructure — [orkidlabs.xyz](https://orkidlabs.xyz) · [@orkid-labs on npm](https://www.npmjs.com/org/orkid-labs) · [github.com/orkid-labs](https://github.com/orkid-labs)
